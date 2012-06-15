@@ -5,6 +5,8 @@ Project("{E498942D-6E74-F131-1972-7A30D68E2FBF}") = "tp_jogos", "Assembly-CSharp
 EndProject
 Project("{E498942D-6E74-F131-1972-7A30D68E2FBF}") = "tp_jogos", "Assembly-UnityScript-firstpass.unityproj", "{AA6B9D4A-E495-6277-1884-2D69AFF2E8F9}"
 EndProject
+Project("{E498942D-6E74-F131-1972-7A30D68E2FBF}") = "tp_jogos", "Assembly-UnityScript.unityproj", "{57CB026A-1E3B-2BB9-D6E7-C1BBE3A919D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{AA6B9D4A-E495-6277-1884-2D69AFF2E8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA6B9D4A-E495-6277-1884-2D69AFF2E8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA6B9D4A-E495-6277-1884-2D69AFF2E8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CB026A-1E3B-2BB9-D6E7-C1BBE3A919D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CB026A-1E3B-2BB9-D6E7-C1BBE3A919D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CB026A-1E3B-2BB9-D6E7-C1BBE3A919D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CB026A-1E3B-2BB9-D6E7-C1BBE3A919D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-								GlobalSection(MonoDevelopProperties) = preSolution
+																									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
