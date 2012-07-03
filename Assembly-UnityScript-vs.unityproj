@@ -44,6 +44,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\detectaColisaoCirc1.js" />
+     <Compile Include="Assets\Scripts\detectaColisaoCirc2.js" />
      <Compile Include="Assets\Scripts\lançaflecha.js" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
