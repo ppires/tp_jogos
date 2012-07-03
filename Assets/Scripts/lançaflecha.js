@@ -23,9 +23,9 @@ function Update(){
 	if (Input.GetKey ("right")) transform.Rotate(-2*Vector3.up*Time.deltaTime);
 	
 
-	print("graus X = " + transform.eulerAngles.x);
-   	print("graus Y = " + transform.eulerAngles.y);
-   	print("graus Z = " + transform.eulerAngles.z);
+//		print("graus X = " + transform.eulerAngles.x);
+//   	print("graus Y = " + transform.eulerAngles.y);
+//   	print("graus Z = " + transform.eulerAngles.z);
 }
 
 function FixedUpdate() {				//Um update da física do objeto (rigidbody)
