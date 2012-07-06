@@ -1,13 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\lançaflecha.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\giraArco.js">
     <Files>
-      <File FileName="Assets\Scripts\giraArco.js" Line="18" Column="3" />
-      <File FileName="Assets\Scripts\lançaflecha.js" Line="37" Column="1" />
-      <File FileName="Assets\Scripts\detectaColisaoCirc3.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\detectaColisaoCirc2.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\detectaColisaoCirc4.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\detectaColisaoCirc5.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\mousePLAY.js" Line="12" Column="5" />
+      <File FileName="Assets\Scripts\mouseQUIT.js" Line="12" Column="21" />
+      <File FileName="Assets\Scripts\giraArco.js" Line="7" Column="21" />
+      <File FileName="Assets\Scripts\lançaflecha.js" Line="18" Column="35" />
+      <File FileName="Assets\Scripts\mudaCena.js" Line="15" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

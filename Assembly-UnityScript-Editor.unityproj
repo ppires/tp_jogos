@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{57CB026A-1E3B-2BB9-D6E7-C1BBE3A919D8}</ProjectGuid>
+	<ProjectGuid>{BD7EC5BC-F9ED-EED9-0319-8B7C2EBE93E0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<AssemblyName>Assembly-UnityScript-Editor</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,28 +44,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\detectaColisaoCirc1.js" />
-     <Compile Include="Assets\Scripts\detectaColisaoCirc2.js" />
-     <Compile Include="Assets\Scripts\detectaColisaoCirc3.js" />
-     <Compile Include="Assets\Scripts\detectaColisaoCirc4.js" />
-     <Compile Include="Assets\Scripts\detectaColisaoCirc5.js" />
-     <Compile Include="Assets\Scripts\giraArco.js" />
-     <Compile Include="Assets\Scripts\lançaflecha.js" />
-     <Compile Include="Assets\Scripts\mousePLAY.js" />
-     <Compile Include="Assets\Scripts\mouseQUIT.js" />
-     <Compile Include="Assets\Scripts\mudaCena.js" />
+     <Compile Include="Assets\Editor\mudaCena.js" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
      <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{7C2A709F-E3F6-8B94-564A-055E2C0581A9}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7C2A709F-E3F6-8B94-564A-055E2C0581A9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{AA6B9D4A-E495-6277-1884-2D69AFF2E8F9}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{57CB026A-1E3B-2BB9-D6E7-C1BBE3A919D8}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
